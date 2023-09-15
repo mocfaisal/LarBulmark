@@ -22,6 +22,8 @@
         "@inertiajs/progress": "^0.2.7",
         "@inertiajs/vue2": "^1.0.11",
         "buefy": "^0.9.23",
-        "vue": "^2.7.14"
+        "bulma-extensions": "^6.2.7",
+        "vue": "^2.7.14",
+        "vue-head": "^2.2.0"
     }
 }

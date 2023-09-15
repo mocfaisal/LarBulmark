@@ -14,6 +14,7 @@ use Inertia\Inertia;
 |
 */
 
+// resources/js/Pages/*
 Route::get('/', function () {
     return Inertia::render('Home', ['title' => 'Homepage',]);
 })->name('homepage');
@@ -25,3 +26,7 @@ Route::get('/about', function () {
 Route::get('/contact', function () {
     return Inertia::render('Contact', ['title' => 'Contact',]);
 })->name('contact');
+
+Route::get('/portal', function () {
+    return Inertia::render('Frontend/Portal/Home', ['title' => 'Homepage',]);
+})->name('portal');

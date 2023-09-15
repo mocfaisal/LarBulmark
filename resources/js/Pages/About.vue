@@ -1,5 +1,6 @@
 <template>
     <div>
+
         <Head>
             <title>{{ $page.props.title }} - My awesome app</title>
         </Head>
@@ -23,3 +24,14 @@
         </div>
     </div>
 </template>
+
+<script>
+import BackendLayout from './Layouts/Backend_Layout'
+export default {
+    name: 'about',
+    layout: BackendLayout,
+    props: {
+        user: Object,
+    },
+}
+</script>
